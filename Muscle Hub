@@ -641,7 +641,7 @@ function CheckQuest()
 		end;
 	end;
 end;
-function Hop()
+function relz()
 	local PlaceID = game.PlaceId;
 	local AllIDs = {};
 	local foundAnything = "";
@@ -1848,7 +1848,7 @@ end);
 spawn(function()
 	pcall(function()
 		while wait() do
-			if _G.AutoAdvanceDungeon or _G.AutoDoughtBoss or _G.Auto_DungeonMobAura or _G.AutoFarmChest or _G.AutoFactory or _G.AutoFarmBossHallow or _G.AutoFarmSwanGlasses or _G.AutoLongSword or _G.AutoBlackSpikeycoat or _G.AutoElectricClaw or _G.AutoFarmGunMastery or _G.AutoHolyTorch or _G.AutoLawRaid or _G.AutoFarmBoss or _G.AutoTwinHooks or _G.AutoOpenSwanDoor or _G.AutoDragon_Trident or _G.AutoSaber or _G.AutoFarmFruitMastery or _G.AutoFarmGunMastery or _G.TeleportIsland or _G.Auto_EvoRace or _G.AutoFarmAllMsBypassType or _G.AutoObservationv2 or _G.AutoMusketeerHat or _G.AutoEctoplasm or _G.AutoRengoku or _G.Auto_Rainbow_Haki or _G.AutoObservation or _G.AutoDarkDagger or _G.Safe_Mode or _G.MasteryFruit or _G.AutoBudySword or _G.AutoOderSword or _G.AutoBounty or _G.AutoAllBoss or _G.Auto_Bounty or _G.AutoSharkman or _G.Auto_Mastery_Fruit or _G.Auto_Mastery_Gun or _G.Auto_Dungeon or _G.Auto_Cavender or _G.Auto_Pole or _G.Auto_Kill_Ply or _G.Auto_Factory or _G.AutoSecondSea or _G.TeleportPly or _G.AutoBartilo or _G.Auto_DarkBoss or _G.GrabChest or _G.AutoFarmBounty or _G.Holy_Torch or _G.AutoFarm or _G.Clip or FarmBoss or _G.AutoElitehunter or _G.AutoThirdSea or _G.Auto_Bone or _G.Autoheart or _G.Autodoughking or _G.AutoFarmMaterial or _G.AutoNevaSoulGuitar or _G.Auto_Dragon_Trident or _G.Autotushita or _G.d or _G.Autowaden or _G.Autogay or _G.Autopole or _G.Autosaw or _G.AutoObservationHakiV2 or _G.AutoFarmNearest or AutoFarmChest or _G.AutoCarvender or _G.AutoTwinHook or AutoMobAura or _G.Tweenfruit or _G.TeleportNPC or _G.Leather or _G.Auto_Wing or _G.Umm or _G.Makori_gay or Radioactive or Fish or Gunpowder or Dragon_Scale or Cocoafarm or Scrap or MiniHee or _G.AutoFarmSeabaest or Auto_Cursed_Dual_Katana or _G.AutoFarmMob or _G.AutoMysticIsland or _G.AutoFarmDungeon or _G.AutoRaidPirate or _G.AutoQuestRace or _G.TweenMGear or (getgenv()).AutoFarm or _G.AutoPlayerHunter or _G.AutoFactory or Grab_Chest or _G.Namfon or _G.AutoSwordMastery or _G.Auto_Seabest or _G.AutoSeaBest or _G.AutoKillTial or _G.Auto_Saber or _G.Position_Spawn or _G.Farmfast or _G.AutoRace or _G.RaidPirate or Open_Color_Haki or _G.AutoTerrorshark or FarmShark or _G.farmpiranya or _G.Fish_Crew_Member == true or _G.MusclePirateBrigade or _G.MusclePirateGrandBrigade or _G.SailBoat or _G.AutoFarmAllBoss or _G.TeleportKitsune or _G.MuscleFishBoat then
+			if _G.AutoAdvanceDungeon or _G.AutoDoughtBoss or _G.Auto_DungeonMobAura or _G.AutoFarmChest or _G.AutoFactory or _G.AutoFarmBossHallow or _G.AutoFarmSwanGlasses or _G.AutoLongSword or _G.AutoBlackSpikeycoat or _G.AutoElectricClaw or _G.AutoFarmGunMastery or _G.AutoHolyTorch or _G.AutoLawRaid or _G.AutoFarmBoss or _G.AutoTwinHooks or _G.AutoOpenSwanDoor or _G.AutoDragon_Trident or _G.AutoSaber or _G.AutoFarmFruitMastery or _G.AutoFarmGunMastery or _G.TeleportIsland or _G.Auto_EvoRace or _G.AutoFarmAllMsBypassType or _G.AutoObservationv2 or _G.AutoMusketeerHat or _G.AutoEctoplasm or _G.AutoRengoku or _G.Auto_Rainbow_Haki or _G.AutoObservation or _G.AutoDarkDagger or _G.Safe_Mode or _G.MasteryFruit or _G.AutoBudySword or _G.AutoOderSword or _G.AutoBounty or _G.AutoAllBoss or _G.Auto_Bounty or _G.AutoSharkman or _G.Auto_Mastery_Fruit or _G.Auto_Mastery_Gun or _G.Auto_Dungeon or _G.Auto_Cavender or _G.Auto_Pole or _G.Auto_Kill_Ply or _G.Auto_Factory or _G.AutoSecondSea or _G.TeleportPly or _G.AutoBartilo or _G.Auto_DarkBoss or _G.GrabChest or _G.AutoFarmBounty or _G.Holy_Torch or _G.AutoFarm or _G.Clip or FarmBoss or _G.AutoElitehunter or _G.AutoThirdSea or _G.Auto_Bone or _G.Autoheart or _G.Autodoughking or _G.AutoFarmMaterial or _G.AutoNevaSoulGuitar or _G.Auto_Dragon_Trident or _G.Autotushita or _G.d or _G.Autowaden or _G.Autogay or _G.Autopole or _G.Autosaw or _G.AutoObservationHakiV2 or _G.AutoFarmNearest or AutoFarmChest or _G.AutoCarvender or _G.AutoTwinHook or AutoMobAura or _G.Tweenfruit or _G.TeleportNPC or _G.Leather or _G.Auto_Wing or _G.Umm or _G.Makori_gay or Radioactive or Fish or Gunpowder or Dragon_Scale or Cocoafarm or Scrap or MiniHee or _G.AutoFarmSeabaest or Auto_Cursed_Dual_Katana or _G.AutoFarmMob or _G.AutoMysticIsland or _G.AutoFarmDungeon or _G.AutoRaidPirate or _G.AutoQuestRace or _G.TweenMGear or (getgenv()).AutoFarm or _G.AutoPlayerHunter or _G.AutoFactory or Grab_Chest or _G.Namfon or _G.AutoSwordMastery or _G.Auto_Seabest or _G.AutoSeaBest or _G.AutoKillTial or _G.Auto_Saber or _G.Position_Spawn or _G.Farmfast or _G.AutoRace or _G.RaidPirate or Open_Color_Haki or _G.AutoTerrorshark or FarmShark or _G.farmpiranya or _G.Fish_Crew_Member == true or _G.RelzPirateBrigade or _G.RelzPirateGrandBrigade or _G.SailBoat or _G.AutoFarmAllBoss or _G.TeleportKitsune or _G.RelzFishBoat then
 				if not (game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart:FindFirstChild("BodyClip") then
 					local Noclip = Instance.new("BodyVelocity");
 					Noclip.Name = "BodyClip";
@@ -1863,7 +1863,7 @@ end);
 spawn(function()
 	pcall(function()
 		while wait() do
-			if _G.AutoAdvanceDungeon or _G.AutoDoughtBoss or _G.Auto_DungeonMobAura or _G.AutoFarmChest or _G.AutoFactory or _G.AutoFarmBossHallow or _G.AutoFarmSwanGlasses or _G.AutoLongSword or _G.AutoBlackSpikeycoat or _G.AutoElectricClaw or _G.AutoFarmGunMastery or _G.AutoHolyTorch or _G.AutoLawRaid or _G.AutoFarmBoss or _G.AutoTwinHooks or _G.AutoOpenSwanDoor or _G.AutoDragon_Trident or _G.AutoSaber or _G.AutoFarmFruitMastery or _G.AutoFarmGunMastery or _G.TeleportIsland or _G.Auto_EvoRace or _G.AutoFarmAllMsBypassType or _G.AutoObservationv2 or _G.AutoMusketeerHat or _G.AutoEctoplasm or _G.AutoRengoku or _G.Auto_Rainbow_Haki or _G.AutoObservation or _G.AutoDarkDagger or _G.Safe_Mode or _G.MasteryFruit or _G.AutoBudySword or _G.AutoOderSword or _G.AutoBounty or _G.AutoAllBoss or _G.Auto_Bounty or _G.AutoSharkman or _G.Auto_Mastery_Fruit or _G.Auto_Mastery_Gun or _G.Auto_Dungeon or _G.Auto_Cavender or _G.Auto_Pole or _G.Auto_Kill_Ply or _G.Auto_Factory or _G.AutoSecondSea or _G.TeleportPly or _G.AutoBartilo or _G.Auto_DarkBoss or _G.GrabChest or _G.AutoFarmBounty or _G.Holy_Torch or _G.AutoFarm or _G.Clip or FarmBoss or _G.AutoElitehunter or _G.AutoThirdSea or _G.Auto_Bone or _G.Autoheart or _G.Autodoughking or _G.AutoFarmMaterial or _G.AutoNevaSoulGuitar or _G.Auto_Dragon_Trident or _G.Autotushita or _G.d or _G.Autowaden or _G.Autogay or _G.Autopole or _G.Autosaw or _G.AutoObservationHakiV2 or _G.AutoFarmNearest or AutoFarmChest or _G.AutoCarvender or _G.AutoTwinHook or AutoMobAura or _G.Tweenfruit or _G.TeleportNPC or _G.Leather or _G.Auto_Wing or _G.Umm or _G.Makori_gay or Radioactive or Fish or Gunpowder or Dragon_Scale or Cocoafarm or Scrap or MiniHee or _G.AutoFarmSeabaest or Auto_Cursed_Dual_Katana or _G.AutoFarmMob or _G.AutoMysticIsland or _G.AutoFarmDungeon or _G.AutoRaidPirate or _G.AutoQuestRace or _G.TweenMGear or (getgenv()).AutoFarm or _G.AutoPlayerHunter or _G.AutoFactory or Grab_Chest or _G.Namfon or _G.AutoSwordMastery or _G.Auto_Seabest or _G.AutoSeaBest or _G.AutoKillTial or _G.Auto_Saber or _G.Position_Spawn or _G.Farmfast or _G.AutoRace or _G.RaidPirate or Open_Color_Haki or _G.AutoTerrorshark or FarmShark or _G.farmpiranya or _G.Fish_Crew_Member == true or _G.MusclePirateBrigade or _G.MusclePirateGrandBrigade or _G.SailBoat or _G.AutoFarmAllBoss or _G.TeleportKitsune or _G.MuscleFishBoat then
+			if _G.AutoAdvanceDungeon or _G.AutoDoughtBoss or _G.Auto_DungeonMobAura or _G.AutoFarmChest or _G.AutoFactory or _G.AutoFarmBossHallow or _G.AutoFarmSwanGlasses or _G.AutoLongSword or _G.AutoBlackSpikeycoat or _G.AutoElectricClaw or _G.AutoFarmGunMastery or _G.AutoHolyTorch or _G.AutoLawRaid or _G.AutoFarmBoss or _G.AutoTwinHooks or _G.AutoOpenSwanDoor or _G.AutoDragon_Trident or _G.AutoSaber or _G.AutoFarmFruitMastery or _G.AutoFarmGunMastery or _G.TeleportIsland or _G.Auto_EvoRace or _G.AutoFarmAllMsBypassType or _G.AutoObservationv2 or _G.AutoMusketeerHat or _G.AutoEctoplasm or _G.AutoRengoku or _G.Auto_Rainbow_Haki or _G.AutoObservation or _G.AutoDarkDagger or _G.Safe_Mode or _G.MasteryFruit or _G.AutoBudySword or _G.AutoOderSword or _G.AutoBounty or _G.AutoAllBoss or _G.Auto_Bounty or _G.AutoSharkman or _G.Auto_Mastery_Fruit or _G.Auto_Mastery_Gun or _G.Auto_Dungeon or _G.Auto_Cavender or _G.Auto_Pole or _G.Auto_Kill_Ply or _G.Auto_Factory or _G.AutoSecondSea or _G.TeleportPly or _G.AutoBartilo or _G.Auto_DarkBoss or _G.GrabChest or _G.AutoFarmBounty or _G.Holy_Torch or _G.AutoFarm or _G.Clip or FarmBoss or _G.AutoElitehunter or _G.AutoThirdSea or _G.Auto_Bone or _G.Autoheart or _G.Autodoughking or _G.AutoFarmMaterial or _G.AutoNevaSoulGuitar or _G.Auto_Dragon_Trident or _G.Autotushita or _G.d or _G.Autowaden or _G.Autogay or _G.Autopole or _G.Autosaw or _G.AutoObservationHakiV2 or _G.AutoFarmNearest or AutoFarmChest or _G.AutoCarvender or _G.AutoTwinHook or AutoMobAura or _G.Tweenfruit or _G.TeleportNPC or _G.Leather or _G.Auto_Wing or _G.Umm or _G.Makori_gay or Radioactive or Fish or Gunpowder or Dragon_Scale or Cocoafarm or Scrap or MiniHee or _G.AutoFarmSeabaest or Auto_Cursed_Dual_Katana or _G.AutoFarmMob or _G.AutoMysticIsland or _G.AutoFarmDungeon or _G.AutoRaidPirate or _G.AutoQuestRace or _G.TweenMGear or (getgenv()).AutoFarm or _G.AutoPlayerHunter or _G.AutoFactory or Grab_Chest or _G.Namfon or _G.AutoSwordMastery or _G.Auto_Seabest or _G.AutoSeaBest or _G.AutoKillTial or _G.Auto_Saber or _G.Position_Spawn or _G.Farmfast or _G.AutoRace or _G.RaidPirate or Open_Color_Haki or _G.AutoTerrorshark or FarmShark or _G.farmpiranya or _G.Fish_Crew_Member == true or _G.RelzPirateBrigade or _G.RelzPirateGrandBrigade or _G.SailBoat or _G.AutoFarmAllBoss or _G.TeleportKitsune or _G.RelzFishBoat then
 				local player = (game:GetService("Players")).LocalPlayer;
 				local humanoid = player.Character and player.Character:FindFirstChildOfClass("Humanoid");
 				if humanoid then
@@ -1879,7 +1879,7 @@ end);
 spawn(function()
 	pcall(function()
 		(game:GetService("RunService")).Stepped:Connect(function()
-			if _G.AutoAdvanceDungeon or _G.AutoDoughtBoss or _G.Auto_DungeonMobAura or _G.AutoFarmChest or _G.AutoFactory or _G.AutoFarmBossHallow or _G.AutoFarmSwanGlasses or _G.AutoLongSword or _G.AutoBlackSpikeycoat or _G.AutoElectricClaw or _G.AutoFarmGunMastery or _G.AutoHolyTorch or _G.AutoLawRaid or _G.AutoFarmBoss or _G.AutoTwinHooks or _G.AutoOpenSwanDoor or _G.AutoDragon_Trident or _G.AutoSaber or _G.NoClip or _G.AutoFarmFruitMastery or _G.AutoFarmGunMastery or _G.TeleportIsland or _G.Auto_EvoRace or _G.AutoFarmAllMsBypassType or _G.AutoObservationv2 or _G.AutoMusketeerHat or _G.AutoEctoplasm or _G.AutoRengoku or _G.Auto_Rainbow_Haki or _G.AutoObservation or _G.AutoDarkDagger or _G.Safe_Mode or _G.MasteryFruit or _G.AutoBudySword or _G.AutoOderSword or _G.AutoBounty or _G.AutoAllBoss or _G.Auto_Bounty or _G.AutoSharkman or _G.Auto_Mastery_Fruit or _G.Auto_Mastery_Gun or _G.Auto_Dungeon or _G.Auto_Cavender or _G.Auto_Pole or _G.Auto_Kill_Ply or _G.Auto_Factory or _G.AutoSecondSea or _G.TeleportPly or _G.AutoBartilo or _G.Auto_DarkBoss or _G.GrabChest or _G.AutoFarmBounty or _G.Holy_Torch or _G.AutoFarm or _G.Clip or _G.AutoElitehunter or _G.AutoThirdSea or _G.Auto_Bone or _G.Autoheart or _G.Autodoughking or _G.AutoFarmMaterial or _G.AutoNevaSoulGuitar or _G.Auto_Dragon_Trident or _G.Autotushita or _G.Autowaden or _G.Autogay or _G.Autopole or _G.Autosaw or _G.AutoObservationHakiV2 or _G.AutoFarmNearest or _G.AutoCarvender or _G.AutoTwinHook or AutoMobAura or _G.Tweenfruit or _G.TeleportNPC or _G.AutoKai or _G.Leather or _G.Auto_Wing or _G.Umm or _G.Makori_gay or Radioactive or Fish or Gunpowder or Dragon_Scale or Cocoafarm or Scrap or MiniHee or _G.AutoFarmSeabaest or Auto_Cursed_Dual_Katana or _G.AutoFarmMob or _G.AutoMysticIsland or _G.AutoFarmDungeon or _G.AutoRaidPirate or _G.AutoQuestRace or _G.TweenMGear or (getgenv()).AutoFarm or _G.AutoPlayerHunter or _G.AutoFactory or _G.Namfon or _G.AutoSwordMastery or _G.Auto_Seabest or _G.AutoSeaBest or _G.AutoKillTial or _G.Auto_Saber or _G.Position_Spawn or _G.TPB or _G.Farmfast or _G.AutoRace or _G.RaidPirate or Open_Color_Haki or _G.AutoTerrorshark or FarmShark or _G.farmpiranya or _G.SailBoat or _G.MusclePirateBrigade or _G.MusclePirateGrandBrigade or _G.AutoFarmChest or _G.ChestBypass or _G.Fish_Crew_Member == true or _G.AutoFarmAllBoss or _G.TeleportKitsune or _G.MuscleFishBoat then
+			if _G.AutoAdvanceDungeon or _G.AutoDoughtBoss or _G.Auto_DungeonMobAura or _G.AutoFarmChest or _G.AutoFactory or _G.AutoFarmBossHallow or _G.AutoFarmSwanGlasses or _G.AutoLongSword or _G.AutoBlackSpikeycoat or _G.AutoElectricClaw or _G.AutoFarmGunMastery or _G.AutoHolyTorch or _G.AutoLawRaid or _G.AutoFarmBoss or _G.AutoTwinHooks or _G.AutoOpenSwanDoor or _G.AutoDragon_Trident or _G.AutoSaber or _G.NoClip or _G.AutoFarmFruitMastery or _G.AutoFarmGunMastery or _G.TeleportIsland or _G.Auto_EvoRace or _G.AutoFarmAllMsBypassType or _G.AutoObservationv2 or _G.AutoMusketeerHat or _G.AutoEctoplasm or _G.AutoRengoku or _G.Auto_Rainbow_Haki or _G.AutoObservation or _G.AutoDarkDagger or _G.Safe_Mode or _G.MasteryFruit or _G.AutoBudySword or _G.AutoOderSword or _G.AutoBounty or _G.AutoAllBoss or _G.Auto_Bounty or _G.AutoSharkman or _G.Auto_Mastery_Fruit or _G.Auto_Mastery_Gun or _G.Auto_Dungeon or _G.Auto_Cavender or _G.Auto_Pole or _G.Auto_Kill_Ply or _G.Auto_Factory or _G.AutoSecondSea or _G.TeleportPly or _G.AutoBartilo or _G.Auto_DarkBoss or _G.GrabChest or _G.AutoFarmBounty or _G.Holy_Torch or _G.AutoFarm or _G.Clip or _G.AutoElitehunter or _G.AutoThirdSea or _G.Auto_Bone or _G.Autoheart or _G.Autodoughking or _G.AutoFarmMaterial or _G.AutoNevaSoulGuitar or _G.Auto_Dragon_Trident or _G.Autotushita or _G.Autowaden or _G.Autogay or _G.Autopole or _G.Autosaw or _G.AutoObservationHakiV2 or _G.AutoFarmNearest or _G.AutoCarvender or _G.AutoTwinHook or AutoMobAura or _G.Tweenfruit or _G.TeleportNPC or _G.AutoKai or _G.Leather or _G.Auto_Wing or _G.Umm or _G.Makori_gay or Radioactive or Fish or Gunpowder or Dragon_Scale or Cocoafarm or Scrap or MiniHee or _G.AutoFarmSeabaest or Auto_Cursed_Dual_Katana or _G.AutoFarmMob or _G.AutoMysticIsland or _G.AutoFarmDungeon or _G.AutoRaidPirate or _G.AutoQuestRace or _G.TweenMGear or (getgenv()).AutoFarm or _G.AutoPlayerHunter or _G.AutoFactory or _G.Namfon or _G.AutoSwordMastery or _G.Auto_Seabest or _G.AutoSeaBest or _G.AutoKillTial or _G.Auto_Saber or _G.Position_Spawn or _G.TPB or _G.Farmfast or _G.AutoRace or _G.RaidPirate or Open_Color_Haki or _G.AutoTerrorshark or FarmShark or _G.farmpiranya or _G.SailBoat or _G.RelzPirateBrigade or _G.RelzPirateGrandBrigade or _G.AutoFarmChest or _G.ChestBypass or _G.Fish_Crew_Member == true or _G.AutoFarmAllBoss or _G.TeleportKitsune or _G.RelzFishBoat then
 				for _, v in pairs((game:GetService("Players")).LocalPlayer.Character:GetDescendants()) do
 					if v:IsA("BasePart") then
 						v.CanCollide = false;
@@ -1977,7 +1977,7 @@ spawn(function()
 		UpdateClient1();
 	end;
 end);
-MainTab:Label("Script By MuscleBlox#6078");
+MainTab:Label("Script By RelzBlox#6078");
 MainTab:Button("Copy Discord Link", function()
 	setclipboard("https://discord.com/invite/ba2jasaKn2");
 end);
@@ -6081,7 +6081,7 @@ spawn(function()
 						if v.Name == _G.SelectedBoat then
 							if v:FindFirstChild("MyBoatEsp") then
 								if (game.Players.LocalPlayer.Character:WaitForChild("Humanoid")).Sit == false then
-									if CheckShark() and _G.AutoKillShark or (game:GetService("Workspace")).Enemies:FindFirstChild("Terrorshark") and _G.AutoTerrorshark or CheckPiranha() and _G.AutoKillPiranha or (game:GetService("Workspace")).Enemies:FindFirstChild("Fish Crew Member") and _G.AutoKillFishCrew or (game:GetService("Workspace")).Enemies:FindFirstChild("FishBoat") and _G.MuscleFishBoat or (game:GetService("Workspace")).Enemies:FindFirstChild("PirateBrigade") and _G.MusclePirateBrigade or (game:GetService("Workspace")).Enemies:FindFirstChild("PirateGrandBrigade") and _G.MusclePirateGrandBrigade or CheckSeaBeast() and _G.AutoSeaBest then
+									if CheckShark() and _G.AutoKillShark or (game:GetService("Workspace")).Enemies:FindFirstChild("Terrorshark") and _G.AutoTerrorshark or CheckPiranha() and _G.AutoKillPiranha or (game:GetService("Workspace")).Enemies:FindFirstChild("Fish Crew Member") and _G.AutoKillFishCrew or (game:GetService("Workspace")).Enemies:FindFirstChild("FishBoat") and _G.RelzFishBoat or (game:GetService("Workspace")).Enemies:FindFirstChild("PirateBrigade") and _G.RelzPirateBrigade or (game:GetService("Workspace")).Enemies:FindFirstChild("PirateGrandBrigade") and _G.RelzPirateGrandBrigade or CheckSeaBeast() and _G.AutoSeaBest then
 										if stoppos then
 											stoppos:Stop();
 										end;
@@ -6092,7 +6092,7 @@ spawn(function()
 									repeat
 										wait();
 										local stopboat = TPB(CFrameSelectedZone, v.VehicleSeat);
-									until CheckShark() and _G.AutoKillShark or (game:GetService("Workspace")).Enemies:FindFirstChild("Terrorshark") and _G.AutoTerrorshark or CheckPiranha() and _G.AutoKillPiranha or (game:GetService("Workspace")).Enemies:FindFirstChild("Fish Crew Member") and _G.AutoKillFishCrew or (game:GetService("Workspace")).Enemies:FindFirstChild("FishBoat") and _G.MuscleFishBoat or (game:GetService("Workspace")).Enemies:FindFirstChild("PirateBrigade") and _G.MusclePirateBrigade or (game:GetService("Workspace")).Enemies:FindFirstChild("PirateGrandBrigade") and _G.MusclePirateGrandBrigade or CheckSeaBeast() and _G.AutoSeaBest or (game.Players.LocalPlayer.Character:WaitForChild("Humanoid")).Sit == false or _G.SailBoat == false;
+									until CheckShark() and _G.AutoKillShark or (game:GetService("Workspace")).Enemies:FindFirstChild("Terrorshark") and _G.AutoTerrorshark or CheckPiranha() and _G.AutoKillPiranha or (game:GetService("Workspace")).Enemies:FindFirstChild("Fish Crew Member") and _G.AutoKillFishCrew or (game:GetService("Workspace")).Enemies:FindFirstChild("FishBoat") and _G.RelzFishBoat or (game:GetService("Workspace")).Enemies:FindFirstChild("PirateBrigade") and _G.RelzPirateBrigade or (game:GetService("Workspace")).Enemies:FindFirstChild("PirateGrandBrigade") and _G.RelzPirateGrandBrigade or CheckSeaBeast() and _G.AutoSeaBest or (game.Players.LocalPlayer.Character:WaitForChild("Humanoid")).Sit == false or _G.SailBoat == false;
 									if stopboat then
 										stopboat:Stop();
 									end;
@@ -6112,7 +6112,7 @@ spawn(function()
 	pcall(function()
 		while wait() do
 			if _G.SailBoat then
-				if CheckShark() and _G.AutoKillShark or (game:GetService("Workspace")).Enemies:FindFirstChild("Terrorshark") and _G.AutoTerrorshark or CheckPiranha() and _G.AutoKillPiranha or (game:GetService("Workspace")).Enemies:FindFirstChild("Fish Crew Member") and _G.AutoKillFishCrew or (game:GetService("Workspace")).Enemies:FindFirstChild("FishBoat") and _G.MuscleFishBoat or (game:GetService("Workspace")).Enemies:FindFirstChild("PirateBrigade") and _G.MusclePirateBrigade or (game:GetService("Workspace")).Enemies:FindFirstChild("PirateGrandBrigade") and _G.MusclePirateGrandBrigade or CheckSeaBeast() and _G.AutoSeaBest then
+				if CheckShark() and _G.AutoKillShark or (game:GetService("Workspace")).Enemies:FindFirstChild("Terrorshark") and _G.AutoTerrorshark or CheckPiranha() and _G.AutoKillPiranha or (game:GetService("Workspace")).Enemies:FindFirstChild("Fish Crew Member") and _G.AutoKillFishCrew or (game:GetService("Workspace")).Enemies:FindFirstChild("FishBoat") and _G.RelzFishBoat or (game:GetService("Workspace")).Enemies:FindFirstChild("PirateBrigade") and _G.RelzPirateBrigade or (game:GetService("Workspace")).Enemies:FindFirstChild("PirateGrandBrigade") and _G.RelzPirateGrandBrigade or CheckSeaBeast() and _G.AutoSeaBest then
 					if game.Players.LocalPlayer.Character.Humanoid.Sit == true then
 						(game:GetService("VirtualInputManager")):SendKeyEvent(true, 32, false, game);
 						wait(0.1);
@@ -6145,7 +6145,7 @@ spawn(function()
 							end;
 						end;
 					end;
-				elseif (game:GetService("Workspace")).Enemies:FindFirstChild("FishBoat") and _G.MuscleFishBoat then
+				elseif (game:GetService("Workspace")).Enemies:FindFirstChild("FishBoat") and _G.RelzFishBoat then
 					for i, v in pairs((game:GetService("Workspace")).Enemies:GetChildren()) do
 						if (game:GetService("Workspace")).Enemies:FindFirstChild("FishBoat") then
 							repeat
@@ -6160,12 +6160,12 @@ spawn(function()
 								Skillaimbot = true;
 								AimSkill = v.Engine.CFrame * CFrame.new(0, (-15), 0);
 								AimBotSkillPosition = AimSkill.Position;
-							until not v.Parent or v.Health < 0 or (not (game:GetService("Workspace")).Enemies:FindFirstChild("FishBoat")) or (not v:FindFirstChild("Engine")) or (not _G.MuscleFishBoat);
+							until not v.Parent or v.Health < 0 or (not (game:GetService("Workspace")).Enemies:FindFirstChild("FishBoat")) or (not v:FindFirstChild("Engine")) or (not _G.RelzFishBoat);
 							Skillaimbot = false;
 							_G.SeaSkill = false;
 						end;
 					end;
-				elseif (game:GetService("Workspace")).Enemies:FindFirstChild("PirateGrandBrigade") and _G.MusclePirateGrandBrigade then
+				elseif (game:GetService("Workspace")).Enemies:FindFirstChild("PirateGrandBrigade") and _G.RelzPirateGrandBrigade then
 					for i, v in pairs((game:GetService("Workspace")).Enemies:GetChildren()) do
 						if (game:GetService("Workspace")).Enemies:FindFirstChild("PirateGrandBrigade") then
 							repeat
@@ -6180,12 +6180,12 @@ spawn(function()
 								Skillaimbot = true;
 								AimSkill = v.Engine.CFrame * CFrame.new(0, (-15), 0);
 								AimBotSkillPosition = AimSkill.Position;
-							until not v.Parent or v.Health.Value < 0 or (not (game:GetService("Workspace")).Enemies:FindFirstChild("PirateGrandBrigade")) or (not v:FindFirstChild("Engine")) or (not _G.MusclePirateGrandBrigade);
+							until not v.Parent or v.Health.Value < 0 or (not (game:GetService("Workspace")).Enemies:FindFirstChild("PirateGrandBrigade")) or (not v:FindFirstChild("Engine")) or (not _G.RelzPirateGrandBrigade);
 							Skillaimbot = false;
 							_G.SeaSkill = false;
 						end;
 					end;
-				elseif (game:GetService("Workspace")).Enemies:FindFirstChild("PirateBrigade") and _G.MusclePirateBrigade then
+				elseif (game:GetService("Workspace")).Enemies:FindFirstChild("PirateBrigade") and _G.RelzPirateBrigade then
 					for i, v in pairs((game:GetService("Workspace")).Enemies:GetChildren()) do
 						if (game:GetService("Workspace")).Enemies:FindFirstChild("PirateBrigade") then
 							repeat
@@ -6200,7 +6200,7 @@ spawn(function()
 								Skillaimbot = true;
 								AimSkill = v.Engine.CFrame * CFrame.new(0, (-15), 0);
 								AimBotSkillPosition = AimSkill.Position;
-							until not v.Parent or v.Health.Value < 0 or (not (game:GetService("Workspace")).Enemies:FindFirstChild("PirateBrigade")) or (not v:FindFirstChild("Engine")) or (not _G.MusclePirateBrigade);
+							until not v.Parent or v.Health.Value < 0 or (not (game:GetService("Workspace")).Enemies:FindFirstChild("PirateBrigade")) or (not v:FindFirstChild("Engine")) or (not _G.RelzPirateBrigade);
 							Skillaimbot = false;
 							_G.SeaSkill = false;
 						end;
@@ -6307,21 +6307,21 @@ function UpDownPos(pos)
 	fastpos(pos * CFrame.new(0, 300, 0));
 	wait(3);
 end;
-SeaTab:Toggle("Auto Kill Ghost Ship", _G.MuscleFishBoat, "Auto Kill Use Skill", function(value)
-	_G.MuscleFishBoat = value;
-	StopTween(_G.MuscleFishBoat);
-	if not _G.MuscleFishBoat then
+SeaTab:Toggle("Auto Kill Ghost Ship", _G.RelzFishBoat, "Auto Kill Use Skill", function(value)
+	_G.RelzFishBoat = value;
+	StopTween(_G.RelzFishBoat);
+	if not _G.RelzFishBoat then
 		_G.SeaSkill = false;
 		Skillaimbot = false;
 	end;
 end);
-SeaTab:Toggle("Auto Kill Pirate Brigade", _G.MusclePirateBrigade, "Auto Kill Enemies Use Skill", function(value)
-	_G.MusclePirateBrigade = value;
-	StopTween(_G.MusclePirateBrigade);
+SeaTab:Toggle("Auto Kill Pirate Brigade", _G.RelzPirateBrigade, "Auto Kill Enemies Use Skill", function(value)
+	_G.RelzPirateBrigade = value;
+	StopTween(_G.RelzPirateBrigade);
 end);
-SeaTab:Toggle("Auto Kill Pirate Grand Brigade", _G.MusclePirateGrandBrigade, "Auto Kill Enemies Use Skill", function(value)
-	_G.MusclePirateGrandBrigade = value;
-	StopTween(_G.MusclePirateGrandBrigade);
+SeaTab:Toggle("Auto Kill Pirate Grand Brigade", _G.RelzPirateGrandBrigade, "Auto Kill Enemies Use Skill", function(value)
+	_G.RelzPirateGrandBrigade = value;
+	StopTween(_G.RelzPirateGrandBrigade);
 end);
 SeaTab:Toggle("Auto Kill Terrorshark", _G.AutoTerrorshark, false, function(value)
 	_G.AutoTerrorshark = value;
@@ -6940,8 +6940,8 @@ end);
 spawn(function()
 	pcall(function()
 		while wait(0.1) do
-			if _G.AutoFarmSwanGlasses and _G.AutoFarmSwanGlasses_Hop and World2 and (not (game:GetService("ReplicatedStorage")):FindFirstChild("Don Swan [Lv. 1000] [Boss]")) and (not (game:GetService("Workspace")).Enemies:FindFirstChild("Don Swan [Lv. 1000] [Boss]")) then
-				Hop();
+			if _G.AutoFarmSwanGlasses and _G.AutoFarmSwanGlasses_relz and World2 and (not (game:GetService("ReplicatedStorage")):FindFirstChild("Don Swan [Lv. 1000] [Boss]")) and (not (game:GetService("Workspace")).Enemies:FindFirstChild("Don Swan [Lv. 1000] [Boss]")) then
+				relz();
 			end;
 		end;
 	end);
@@ -6998,7 +6998,7 @@ spawn(function()
 							repeat
 								task.wait();
 								(game:GetService("Players")).LocalPlayer.Character.HumanoidRootPart.CFrame = ((game:GetService("Workspace")).Enemies:FindFirstChild("Lava Pirate")).HumanoidRootPart.CFrame * CFrame.new(0, 50, 0) + wait(1);
-								if not (game:GetService("Players")).LocalPlayer.PlayerGui.ScreenGui:FindFirstChild("ImageLabel") and _G.AutoObservation_Hop == true then
+								if not (game:GetService("Players")).LocalPlayer.PlayerGui.ScreenGui:FindFirstChild("ImageLabel") and _G.AutoObservation_relz == true then
 									(game:GetService("TeleportService")):Teleport(game.PlaceId, (game:GetService("Players")).LocalPlayer);
 								end;
 							until _G.AutoObservation == false or (game:GetService("Players")).LocalPlayer.PlayerGui.ScreenGui:FindFirstChild("ImageLabel");
@@ -10094,7 +10094,7 @@ ServTab:Button("Rejoin Server", function()
 end);
 ServTab:Button("Server Hop", function()
 	while wait() do
-  		local module = (loadstring(game:HttpGet("https://raw.githubusercontent.com/TylerHIP/Open/main/Library/hop.lua")))();
+		local module = (loadstring(game:HttpGet("https://raw.githubusercontent.com/TylerHIP/Open/main/Library/hop.lua")))();
 		module:Teleport(game.PlaceId, "Singapore");
 	end;
 end);
