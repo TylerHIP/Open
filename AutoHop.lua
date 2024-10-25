@@ -1,3 +1,4 @@
+print("Debug Testing")
 local function onPlayerChat(player, message)
     if message:lower() == "hi" then
         print("Detected 'hi', waiting for 10 seconds before server hopping...")
