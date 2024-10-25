@@ -92,7 +92,7 @@ local function freezeAndCount()
     stopButton.TextScaled = true
 
     local corner = Instance.new("UICorner", stopButton)
-    corner.CornerRadius = UDim.new(0, 15)
+    corner.CornerRadius = UDim.new(0, 10)
 
     local countdownActive = true
 
