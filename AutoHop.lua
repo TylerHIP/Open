@@ -1,3 +1,4 @@
+print("test")
 -- The game ID to hop to
 local gameId = 142823291 -- Replace with the actual game ID you want to hop to
 
