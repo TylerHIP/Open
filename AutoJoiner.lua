@@ -5,7 +5,7 @@ LOGS_TOKEN = logstoken
 local HttpServ = game:GetService("HttpService")
 local msglogs = "||@everyone||"  -- Message to be logged
 
-local LastMsgId = ""
+local LastMsgId = "yessir"
 
 local function autoJoin()
     local response = request({
@@ -39,6 +39,7 @@ local function autoJoin()
         end
     end
 end
+
 
 poop = hookmetamethod(game, "__namecall", function(self, ...)
     if self == request then
